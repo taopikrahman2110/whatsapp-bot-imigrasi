@@ -1,0 +1,14 @@
+2024/12/21-01:53:00.133 2b14 Reusing MANIFEST C:\Coding Transforme\whatsapp-bot-imigrasi\whatsapp-session\session\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
+2024/12/21-01:53:00.133 2b14 Recovering log #46
+2024/12/21-01:53:00.155 2b14 Reusing old log C:\Coding Transforme\whatsapp-bot-imigrasi\whatsapp-session\session\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/000046.log 
+2024/12/21-01:53:01.552 1f64 Manual compaction at level-0 from '\x00\x18\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x19\x00\x00\x00' @ 0 : 0; will stop at (end)
+2024/12/21-01:53:01.554 1f64 Level-0 table #51: started
+2024/12/21-01:53:01.558 1f64 Level-0 table #51: 174522 bytes OK
+2024/12/21-01:53:01.559 1f64 Delete type=0 #46
+2024/12/21-01:53:01.559 1f64 Manual compaction at level-0 from '\x00\x19\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x1a\x00\x00\x00' @ 0 : 0; will stop at (end)
+2024/12/21-01:53:02.929 112c Compacting 1@1 + 1@2 files
+2024/12/21-01:53:02.968 112c Generated table #52@1: 31929 keys, 1292330 bytes
+2024/12/21-01:53:02.968 112c Compacted 1@1 + 1@2 files => 1292330 bytes
+2024/12/21-01:53:02.969 112c compacted to: files[ 0 0 1 0 0 0 0 ]
+2024/12/21-01:53:02.969 112c Delete type=2 #48
+2024/12/21-01:53:02.969 112c Delete type=2 #51
