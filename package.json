@@ -1,16 +1,19 @@
 {
   "name": "whatsapp-bot-imigrasi",
   "version": "1.0.0",
-  "description": "",
+  "description": "WhatsApp bot for automating message forwarding between groups",
   "main": "bot.js",
   "scripts": {
     "start": "node bot.js"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["whatsapp", "bot", "automation", "message-forwarding"],
+  "author": "Your Name",
   "license": "ISC",
   "dependencies": {
     "qrcode-terminal": "^0.12.0",
     "whatsapp-web.js": "^1.26.0"
+  },
+  "engines": {
+    "node": ">=16.0.0"
   }
 }
