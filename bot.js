@@ -1,5 +1,6 @@
 const { Client, LocalAuth } = require('whatsapp-web.js');
 const qrcode = require('qrcode-terminal');
+require ('./keepalive.js');
 
 const client = new Client({
     authStrategy: new LocalAuth({
