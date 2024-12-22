@@ -1,3 +1,2 @@
-2024/12/23-01:35:00.574 1474 Reusing MANIFEST C:\Coding Transforme\whatsapp-bot-imigrasi\whatsapp-session\session\Default\Local Storage\leveldb/MANIFEST-000001
-2024/12/23-01:35:00.574 1474 Recovering log #8
-2024/12/23-01:35:00.575 1474 Reusing old log C:\Coding Transforme\whatsapp-bot-imigrasi\whatsapp-session\session\Default\Local Storage\leveldb/000008.log 
+2024/12/23-01:42:20.364 5410 Creating DB C:\Coding Transforme\whatsapp-bot-imigrasi\whatsapp-session\session\Default\Local Storage\leveldb since it was missing.
+2024/12/23-01:42:20.382 5410 Reusing MANIFEST C:\Coding Transforme\whatsapp-bot-imigrasi\whatsapp-session\session\Default\Local Storage\leveldb/MANIFEST-000001

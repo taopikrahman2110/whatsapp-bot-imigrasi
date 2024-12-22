@@ -3,22 +3,23 @@ console.log('Memulai aplikasi...');
 const { Client, LocalAuth } = require('whatsapp-web.js');
 const qrcode = require('qrcode-terminal');
 const botStatus = require('./keepalive'); // Import keep-alive dan status
-
 const path = require('path');
 const fs = require('fs');
 
+// Path folder sesi
 const sessionPath = path.resolve('./whatsapp-session/session');
 console.log(`Path sesi yang digunakan: ${sessionPath}`);
 
+// Periksa apakah folder sesi ada
 if (fs.existsSync(sessionPath)) {
     console.log('Folder sesi ditemukan!');
 } else {
     console.error('Folder sesi TIDAK ditemukan!');
 }
 
-
 console.log('Konfigurasi WhatsApp Client...');
 
+// Konfigurasi WhatsApp Client
 const client = new Client({
     authStrategy: new LocalAuth({
         dataPath: './whatsapp-session', // Folder untuk menyimpan sesi
@@ -33,10 +34,11 @@ console.log('WhatsApp Client dikonfigurasi. Menunggu QR Code atau sesi lama...')
 
 // Event saat QR Code diterima
 client.on('qr', (qr) => {
-    console.log('QR Code diterima. Railway tidak dapat menampilkan QR Code. Silakan scan di lokal.');
-    botStatus.qrReceived = true;
-    botStatus.lastEvent = 'QR Code received';
+    console.log('QR Code diterima. Silakan pindai:');
+    console.log(qr); // Tampilkan QR Code sebagai teks
+    qrcode.generate(qr, { small: true }); // Tampilkan QR Code di terminal
 });
+
 
 // Event saat bot berhasil diautentikasi
 client.on('authenticated', () => {
