@@ -1,64 +1,46 @@
 const { Client, LocalAuth } = require('whatsapp-web.js');
 const qrcode = require('qrcode-terminal');
-require ('./keepalive.js');
+require('./keepalive'); // Keep-alive server
 
+// Konfigurasi bot WhatsApp
 const client = new Client({
     authStrategy: new LocalAuth({
         dataPath: './whatsapp-session',
     }),
     puppeteer: {
         headless: true,
-        args: [
-            '--no-sandbox',
-            '--disable-setuid-sandbox',
-            '--disable-dev-shm-usage',
-            '--disable-accelerated-2d-canvas',
-            '--disable-gpu',
-            '--no-first-run',
-            '--no-zygote',
-            '--single-process',
-        ],
-        ignoreHTTPSErrors: true,
+        args: ['--no-sandbox', '--disable-setuid-sandbox'],
     },
 });
 
+// Event saat QR Code diterima
 client.on('qr', (qr) => {
-    console.log('Scan QR Code berikut:');
-    qrcode.generate(qr, { small: true });
+    console.log('QR Code diterima. Silakan login di lokal jika diperlukan.');
 });
 
+// Event saat bot berhasil login
+client.on('authenticated', () => {
+    console.log('Bot berhasil diautentikasi!');
+});
+
+// Event saat bot siap
 client.on('ready', () => {
     console.log('Bot sudah siap!');
 });
 
-client.on('message', async (message) => {
-    try {
-        console.log('Pesan diterima dari:', message.from);
-        console.log('Isi pesan:', message.body);
-
-        const nataruGroupId = '120363362433243497@g.us';
-        const csGroupId = '120363379800349138@g.us';
-
-        if (message.from === nataruGroupId) {
-            await client.sendMessage(csGroupId, message.body);
-            console.log(`Pesan diteruskan ke Grup CS: ${message.body}`);
-        }
-    } catch (err) {
-        console.error('Terjadi kesalahan saat menangani pesan:', err.message);
-    }
-});
-
+// Event saat bot terputus
 client.on('disconnected', (reason) => {
-    console.error('Client disconnected:', reason);
-    client.destroy().then(() => client.initialize());
+    console.error('Bot terputus:', reason);
+    client.destroy().then(() => client.initialize()); // Restart bot
 });
 
+// Tangani error
 process.on('unhandledRejection', (reason) => {
     console.error('Unhandled Rejection:', reason);
 });
-
 process.on('uncaughtException', (error) => {
     console.error('Uncaught Exception:', error);
 });
 
+// Mulai bot
 client.initialize();
