@@ -4,6 +4,19 @@ const { Client, LocalAuth } = require('whatsapp-web.js');
 const qrcode = require('qrcode-terminal');
 const botStatus = require('./keepalive'); // Import keep-alive dan status
 
+const path = require('path');
+const fs = require('fs');
+
+const sessionPath = path.resolve('./whatsapp-session/session');
+console.log(`Path sesi yang digunakan: ${sessionPath}`);
+
+if (fs.existsSync(sessionPath)) {
+    console.log('Folder sesi ditemukan!');
+} else {
+    console.error('Folder sesi TIDAK ditemukan!');
+}
+
+
 console.log('Konfigurasi WhatsApp Client...');
 
 const client = new Client({
