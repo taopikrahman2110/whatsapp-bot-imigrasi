@@ -1,7 +1,7 @@
-# Gunakan image Node.js sebagai basis
+# Gunakan Node.js sebagai basis
 FROM node:16
 
-# Install dependencies yang diperlukan oleh Puppeteer
+# Install dependencies yang diperlukan untuk Puppeteer dan Chromium
 RUN apt-get update && apt-get install -y \
     chromium \
     libnss3 \
@@ -18,6 +18,7 @@ RUN apt-get update && apt-get install -y \
     libxshmfence-dev \
     libgbm-dev \
     libgtk-3-0 \
+    fonts-liberation \
     --no-install-recommends && \
     apt-get clean && rm -rf /var/lib/apt/lists/*
 
@@ -33,11 +34,8 @@ RUN npm install
 # Salin semua file aplikasi
 COPY . .
 
-# Set environment variable untuk Puppeteer
+# Tetapkan path Chromium untuk Puppeteer
 ENV PUPPETEER_EXECUTABLE_PATH=/usr/bin/chromium
-
-# Expose port (opsional)
-EXPOSE 3000
 
 # Jalankan aplikasi
 CMD ["node", "bot.js"]
