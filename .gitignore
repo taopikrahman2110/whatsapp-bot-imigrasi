@@ -1,11 +1,11 @@
 # Mengabaikan folder node_modules
 node_modules/
 
-# Mengabaikan file log
-*.log
+# # Mengabaikan file log
+# *.log
 
-# Mengabaikan file yang dibuat oleh editor (misalnya, VSCode)
-.vscode/
+# # Mengabaikan file yang dibuat oleh editor (misalnya, VSCode)
+# .vscode/
 
-# Mengabaikan file konfigurasi sistem (misalnya, macOS)
-.DS_Store
+# # Mengabaikan file konfigurasi sistem (misalnya, macOS)
+# .DS_Store

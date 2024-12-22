@@ -1,26 +1,25 @@
-2024/12/23-02:24:11.259 4b10 Reusing MANIFEST C:\Coding Transforme\whatsapp-bot-imigrasi\whatsapp-session\session\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
-2024/12/23-02:24:11.259 4b10 Recovering log #402
-2024/12/23-02:24:11.340 4b10 Reusing old log C:\Coding Transforme\whatsapp-bot-imigrasi\whatsapp-session\session\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/000402.log 
-2024/12/23-02:24:11.340 4b10 Delete type=2 #401
-2024/12/23-02:24:11.340 4b10 Delete type=2 #403
-2024/12/23-02:24:12.636 4b10 Level-0 table #407: started
-2024/12/23-02:24:12.644 4b10 Level-0 table #407: 422485 bytes OK
-2024/12/23-02:24:12.645 4b10 Delete type=0 #402
-2024/12/23-02:24:12.645 4b10 Manual compaction at level-0 from '\x00&\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00'\x00\x00\x00' @ 0 : 0; will stop at '\x00'\x00\x00\x05' @ 404091 : 1
-2024/12/23-02:24:12.645 4b10 Compacting 1@0 + 1@1 files
-2024/12/23-02:24:12.721 4b10 Generated table #408@0: 67152 keys, 1415394 bytes
-2024/12/23-02:24:12.721 4b10 Compacted 1@0 + 1@1 files => 1415394 bytes
-2024/12/23-02:24:12.722 4b10 compacted to: files[ 0 1 1 0 0 0 0 ]
-2024/12/23-02:24:12.722 4b10 Delete type=2 #407
-2024/12/23-02:24:12.722 4b10 Manual compaction at level-0 from '\x00'\x00\x00\x05' @ 404091 : 1 .. '\x00'\x00\x00\x00' @ 0 : 0; will stop at (end)
-2024/12/23-02:24:12.723 130c Level-0 table #410: started
-2024/12/23-02:24:12.728 130c Level-0 table #410: 250 bytes OK
-2024/12/23-02:24:12.729 130c Delete type=2 #404
-2024/12/23-02:24:12.729 130c Delete type=0 #406
-2024/12/23-02:24:12.730 130c Manual compaction at level-0 from '\x00'\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00(\x00\x00\x00' @ 0 : 0; will stop at '\x00'\x00\x00\x05' @ 404124 : 0
-2024/12/23-02:24:12.730 130c Compacting 1@0 + 1@1 files
-2024/12/23-02:24:12.798 130c Generated table #411@0: 67150 keys, 1415270 bytes
-2024/12/23-02:24:12.798 130c Compacted 1@0 + 1@1 files => 1415270 bytes
-2024/12/23-02:24:12.798 130c compacted to: files[ 0 1 1 0 0 0 0 ]
-2024/12/23-02:24:12.799 130c Delete type=2 #410
-2024/12/23-02:24:12.799 130c Manual compaction at level-0 from '\x00'\x00\x00\x05' @ 404124 : 0 .. '\x00(\x00\x00\x00' @ 0 : 0; will stop at (end)
+2024/12/23-02:25:21.843 5da8 Reusing MANIFEST C:\Coding Transforme\whatsapp-bot-imigrasi\whatsapp-session\session\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
+2024/12/23-02:25:21.843 5da8 Recovering log #409
+2024/12/23-02:25:21.870 5da8 Reusing old log C:\Coding Transforme\whatsapp-bot-imigrasi\whatsapp-session\session\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/000409.log 
+2024/12/23-02:25:21.870 5da8 Delete type=2 #408
+2024/12/23-02:25:23.374 371c Level-0 table #414: started
+2024/12/23-02:25:23.378 371c Level-0 table #414: 180785 bytes OK
+2024/12/23-02:25:23.379 371c Delete type=0 #409
+2024/12/23-02:25:23.379 371c Manual compaction at level-0 from '\x00(\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00)\x00\x00\x00' @ 0 : 0; will stop at '\x00)\x00\x00\x05' @ 410730 : 1
+2024/12/23-02:25:23.379 371c Compacting 1@0 + 1@1 files
+2024/12/23-02:25:23.458 371c Generated table #415@0: 70290 keys, 1479327 bytes
+2024/12/23-02:25:23.458 371c Compacted 1@0 + 1@1 files => 1479327 bytes
+2024/12/23-02:25:23.459 371c compacted to: files[ 0 1 1 0 0 0 0 ]
+2024/12/23-02:25:23.459 371c Delete type=2 #414
+2024/12/23-02:25:23.459 371c Manual compaction at level-0 from '\x00)\x00\x00\x05' @ 410730 : 1 .. '\x00)\x00\x00\x00' @ 0 : 0; will stop at (end)
+2024/12/23-02:25:23.460 4470 Level-0 table #417: started
+2024/12/23-02:25:23.466 4470 Level-0 table #417: 249 bytes OK
+2024/12/23-02:25:23.469 4470 Delete type=2 #411
+2024/12/23-02:25:23.469 4470 Delete type=0 #413
+2024/12/23-02:25:23.469 4470 Manual compaction at level-0 from '\x00)\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00*\x00\x00\x00' @ 0 : 0; will stop at '\x00)\x00\x00\x05' @ 410763 : 0
+2024/12/23-02:25:23.469 4470 Compacting 1@0 + 1@1 files
+2024/12/23-02:25:23.542 4470 Generated table #418@0: 70288 keys, 1479297 bytes
+2024/12/23-02:25:23.542 4470 Compacted 1@0 + 1@1 files => 1479297 bytes
+2024/12/23-02:25:23.542 4470 compacted to: files[ 0 1 1 0 0 0 0 ]
+2024/12/23-02:25:23.543 4470 Delete type=2 #417
+2024/12/23-02:25:23.543 4470 Manual compaction at level-0 from '\x00)\x00\x00\x05' @ 410763 : 0 .. '\x00*\x00\x00\x00' @ 0 : 0; will stop at (end)
