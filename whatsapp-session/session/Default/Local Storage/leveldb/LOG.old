@@ -1,3 +1,6 @@
-2024/12/21-01:59:26.061 8890 Reusing MANIFEST C:\Coding Transforme\whatsapp-bot-imigrasi\whatsapp-session\session\Default\Local Storage\leveldb/MANIFEST-000001
-2024/12/21-01:59:26.061 8890 Recovering log #3
-2024/12/21-01:59:26.062 8890 Reusing old log C:\Coding Transforme\whatsapp-bot-imigrasi\whatsapp-session\session\Default\Local Storage\leveldb/000003.log 
+2024/12/22-21:14:55.543 5e78 Reusing MANIFEST C:\Coding Transforme\whatsapp-bot-imigrasi\whatsapp-session\session\Default\Local Storage\leveldb/MANIFEST-000001
+2024/12/22-21:14:55.583 5e78 Recovering log #3
+2024/12/22-21:14:55.584 5e78 Reusing old log C:\Coding Transforme\whatsapp-bot-imigrasi\whatsapp-session\session\Default\Local Storage\leveldb/000003.log 
+2024/12/22-21:55:08.789 345c Level-0 table #5: started
+2024/12/22-21:55:08.792 345c Level-0 table #5: 15830 bytes OK
+2024/12/22-21:55:08.793 345c Delete type=0 #3

@@ -6,6 +6,9 @@ const client = new Client({
     authStrategy: new LocalAuth({
         dataPath: './whatsapp-session', // Folder untuk menyimpan sesi
     }),
+    puppeteer: {
+        args: ['--no-sandbox', '--disable-setuid-sandbox'], // Tambahkan argumen Puppeteer
+    },
 });
 
 // Menampilkan QR Code untuk login
