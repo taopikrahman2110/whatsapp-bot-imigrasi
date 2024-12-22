@@ -1,22 +1,54 @@
-2024/12/21-01:53:59.936 4dc8 Reusing MANIFEST C:\Coding Transforme\whatsapp-bot-imigrasi\whatsapp-session\session\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
-2024/12/21-01:53:59.936 4dc8 Recovering log #50
-2024/12/21-01:53:59.951 4dc8 Reusing old log C:\Coding Transforme\whatsapp-bot-imigrasi\whatsapp-session\session\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/000050.log 
-2024/12/21-01:54:01.334 91d8 Level-0 table #55: started
-2024/12/21-01:54:01.337 91d8 Level-0 table #55: 136188 bytes OK
-2024/12/21-01:54:01.338 91d8 Delete type=0 #50
-2024/12/21-01:54:01.338 91d8 Manual compaction at level-0 from '\x00\x1a\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x1b\x00\x00\x00' @ 0 : 0; will stop at (end)
-2024/12/21-01:54:01.339 91d8 Level-0 table #57: started
-2024/12/21-01:54:01.345 91d8 Level-0 table #57: 446 bytes OK
-2024/12/21-01:54:01.346 91d8 Delete type=0 #54
-2024/12/21-01:54:01.346 91d8 Manual compaction at level-0 from '\x00\x1b\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x1c\x00\x00\x00' @ 0 : 0; will stop at '\x00\x1b\x00\x00\x05' @ 158167 : 0
-2024/12/21-01:54:01.346 91d8 Compacting 1@0 + 1@1 files
-2024/12/21-01:54:01.353 91d8 Generated table #58@0: 2910 keys, 66373 bytes
-2024/12/21-01:54:01.353 91d8 Compacted 1@0 + 1@1 files => 66373 bytes
-2024/12/21-01:54:01.353 91d8 compacted to: files[ 0 1 1 0 0 0 0 ]
-2024/12/21-01:54:01.354 91d8 Delete type=2 #57
-2024/12/21-01:54:01.354 8114 Manual compaction at level-0 from '\x00\x1b\x00\x00\x05' @ 158167 : 0 .. '\x00\x1c\x00\x00\x00' @ 0 : 0; will stop at (end)
-2024/12/21-01:54:02.706 39ac Compacting 1@1 + 1@2 files
-2024/12/21-01:54:02.752 39ac Generated table #59@1: 33004 keys, 1327840 bytes
-2024/12/21-01:54:02.752 39ac Compacted 1@1 + 1@2 files => 1327840 bytes
-2024/12/21-01:54:02.753 39ac compacted to: files[ 0 0 1 0 0 0 0 ]
-2024/12/21-01:54:02.753 39ac Delete type=2 #55
+2024/12/22-21:14:57.741 5e40 Reusing MANIFEST C:\Coding Transforme\whatsapp-bot-imigrasi\whatsapp-session\session\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
+2024/12/22-21:14:57.754 5e40 Recovering log #63
+2024/12/22-21:14:57.807 5e40 Reusing old log C:\Coding Transforme\whatsapp-bot-imigrasi\whatsapp-session\session\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/000063.log 
+2024/12/22-21:14:57.808 5e40 Delete type=2 #59
+2024/12/22-21:14:57.808 5e40 Delete type=2 #65
+2024/12/22-21:15:01.706 5e1c Level-0 table #69: started
+2024/12/22-21:15:01.718 5e1c Level-0 table #69: 142344 bytes OK
+2024/12/22-21:15:01.720 5e1c Delete type=0 #63
+2024/12/22-21:15:01.721 5e1c Manual compaction at level-0 from '\x00\x1e\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x1f\x00\x00\x00' @ 0 : 0; will stop at (end)
+2024/12/22-21:15:01.727 5e1c Level-0 table #71: started
+2024/12/22-21:15:01.744 5e1c Level-0 table #71: 448 bytes OK
+2024/12/22-21:15:01.745 5e1c Delete type=0 #68
+2024/12/22-21:15:01.745 5e1c Manual compaction at level-0 from '\x00\x1f\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00 \x00\x00\x00' @ 0 : 0; will stop at '\x00\x1f\x00\x00\x05' @ 170363 : 0
+2024/12/22-21:15:01.745 5e1c Compacting 1@0 + 1@1 files
+2024/12/22-21:15:01.765 5e1c Generated table #72@0: 3710 keys, 81553 bytes
+2024/12/22-21:15:01.765 5e1c Compacted 1@0 + 1@1 files => 81553 bytes
+2024/12/22-21:15:01.766 5e1c compacted to: files[ 0 1 1 0 0 0 0 ]
+2024/12/22-21:15:01.766 5e1c Delete type=2 #71
+2024/12/22-21:15:01.767 5e1c Manual compaction at level-0 from '\x00\x1f\x00\x00\x05' @ 170363 : 0 .. '\x00 \x00\x00\x00' @ 0 : 0; will stop at (end)
+2024/12/22-21:15:06.088 5e40 Compacting 1@1 + 1@2 files
+2024/12/22-21:15:06.196 5e40 Generated table #73@1: 35560 keys, 1421296 bytes
+2024/12/22-21:15:06.197 5e40 Compacted 1@1 + 1@2 files => 1421296 bytes
+2024/12/22-21:15:06.197 5e40 compacted to: files[ 0 0 1 0 0 0 0 ]
+2024/12/22-21:15:06.198 5e40 Delete type=2 #66
+2024/12/22-21:15:06.198 5e40 Delete type=2 #69
+2024/12/22-21:15:06.198 5e40 Delete type=2 #72
+2024/12/22-21:15:38.875 3b94 Level-0 table #75: started
+2024/12/22-21:15:38.929 3b94 Level-0 table #75: 1048981 bytes OK
+2024/12/22-21:15:38.930 3b94 Delete type=0 #70
+2024/12/22-21:15:38.938 3b94 Compacting 1@1 + 1@2 files
+2024/12/22-21:15:39.148 3b94 Generated table #76@1: 38411 keys, 1537409 bytes
+2024/12/22-21:15:39.148 3b94 Compacted 1@1 + 1@2 files => 1537409 bytes
+2024/12/22-21:15:39.149 3b94 compacted to: files[ 0 0 1 0 0 0 0 ]
+2024/12/22-21:16:29.663 5e1c Level-0 table #78: started
+2024/12/22-21:16:29.718 5e1c Level-0 table #78: 1091017 bytes OK
+2024/12/22-21:16:29.719 5e1c Delete type=2 #73
+2024/12/22-21:16:29.719 5e1c Delete type=0 #74
+2024/12/22-21:16:29.719 5e1c Delete type=2 #75
+2024/12/22-21:16:29.745 5e1c Compacting 1@1 + 1@2 files
+2024/12/22-21:16:29.957 5e1c Generated table #79@1: 44455 keys, 1833865 bytes
+2024/12/22-21:16:29.957 5e1c Compacted 1@1 + 1@2 files => 1833865 bytes
+2024/12/22-21:16:29.958 5e1c compacted to: files[ 0 0 1 0 0 0 0 ]
+2024/12/22-21:20:08.554 5e1c Level-0 table #81: started
+2024/12/22-21:20:08.577 5e1c Level-0 table #81: 378972 bytes OK
+2024/12/22-21:20:08.579 5e1c Delete type=2 #76
+2024/12/22-21:20:08.579 5e1c Delete type=0 #77
+2024/12/22-21:20:08.579 5e1c Delete type=2 #78
+2024/12/22-21:20:08.582 5e1c Manual compaction at level-0 from '\x00!\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00"\x00\x00\x00' @ 0 : 0; will stop at (end)
+2024/12/22-21:20:09.782 345c Compacting 1@1 + 1@2 files
+2024/12/22-21:20:09.923 345c Generated table #82@1: 44725 keys, 1845741 bytes
+2024/12/22-21:20:09.923 345c Compacted 1@1 + 1@2 files => 1845741 bytes
+2024/12/22-21:20:09.924 345c compacted to: files[ 0 0 1 0 0 0 0 ]
+2024/12/22-21:20:09.925 345c Delete type=2 #79
+2024/12/22-21:20:09.925 345c Delete type=2 #81
