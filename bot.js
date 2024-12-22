@@ -2,6 +2,8 @@ const { Client, LocalAuth } = require('whatsapp-web.js');
 const qrcode = require('qrcode-terminal');
 require('./keepalive');
 
+// Logging untuk memastikan Puppeteer menggunakan Chromium yang benar
+console.log(`Chromium digunakan di: ${process.env.PUPPETEER_EXECUTABLE_PATH || '/usr/bin/chromium'}`);
 
 // Gunakan LocalAuth untuk menyimpan sesi
 const client = new Client({
@@ -9,6 +11,7 @@ const client = new Client({
         dataPath: './whatsapp-session', // Folder untuk menyimpan sesi
     }),
     puppeteer: {
+        executablePath: 'C:\\Program Files\\Chromium\\Application\\chrome.exe', 
         args: ['--no-sandbox', '--disable-setuid-sandbox'], // Tambahkan argumen Puppeteer
     },
 });
@@ -19,7 +22,7 @@ client.on('qr', (qr) => {
     qrcode.generate(qr, { small: true });
 });
 
-// Notifikasi saat bot siap
+// Event saat bot siap
 client.on('ready', () => {
     console.log('Bot sudah siap!');
 });
@@ -35,6 +38,13 @@ client.on('message', (message) => {
         .then(() => console.log(`Pesan diteruskan ke Grup CS: ${message.body}`))
         .catch(err => console.error('Gagal meneruskan pesan:', err));
     }
+});
+
+// Event jika bot terputus
+client.on('disconnected', (reason) => {
+    console.log('Bot terputus, alasan:', reason);
+    console.log('Coba restart bot...');
+    client.initialize(); // Restart bot jika terputus
 });
 
 // Mulai klien
