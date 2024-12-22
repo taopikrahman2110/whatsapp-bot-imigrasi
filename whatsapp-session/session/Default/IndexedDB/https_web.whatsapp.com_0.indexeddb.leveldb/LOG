@@ -1,11 +1,11 @@
-2024/12/22-22:58:45.916 67c0 Reusing MANIFEST C:\Coding Transforme\whatsapp-bot-imigrasi\whatsapp-session\session\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
-2024/12/22-22:58:45.917 67c0 Recovering log #80
-2024/12/22-22:58:45.944 67c0 Reusing old log C:\Coding Transforme\whatsapp-bot-imigrasi\whatsapp-session\session\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/000080.log 
-2024/12/22-22:58:47.748 590 Level-0 table #85: started
-2024/12/22-22:58:47.754 590 Level-0 table #85: 182054 bytes OK
-2024/12/22-22:58:47.754 590 Delete type=0 #80
-2024/12/22-22:58:47.755 590 Manual compaction at level-0 from '\x00"\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00#\x00\x00\x00' @ 0 : 0; will stop at (end)
-2024/12/22-22:58:49.136 590 Compacting 1@1 + 1@2 files
-2024/12/22-22:58:49.191 590 Generated table #86@1: 45409 keys, 1858288 bytes
-2024/12/22-22:58:49.191 590 Compacted 1@1 + 1@2 files => 1858288 bytes
-2024/12/22-22:58:49.191 590 compacted to: files[ 0 0 1 0 0 0 0 ]
+2024/12/22-23:16:10.548 3d20 Reusing MANIFEST C:\Coding Transforme\whatsapp-bot-imigrasi\whatsapp-session\session\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
+2024/12/22-23:16:10.548 3d20 Recovering log #84
+2024/12/22-23:16:10.594 3d20 Reusing old log C:\Coding Transforme\whatsapp-bot-imigrasi\whatsapp-session\session\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/000084.log 
+2024/12/22-23:16:11.973 3d20 Level-0 table #89: started
+2024/12/22-23:16:11.980 3d20 Level-0 table #89: 344018 bytes OK
+2024/12/22-23:16:11.980 3d20 Delete type=0 #84
+2024/12/22-23:16:11.981 3d20 Manual compaction at level-0 from '\x00$\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00%\x00\x00\x00' @ 0 : 0; will stop at (end)
+2024/12/22-23:16:13.335 60bc Compacting 1@1 + 1@2 files
+2024/12/22-23:16:13.403 60bc Generated table #90@1: 46633 keys, 1868590 bytes
+2024/12/22-23:16:13.403 60bc Compacted 1@1 + 1@2 files => 1868590 bytes
+2024/12/22-23:16:13.404 60bc compacted to: files[ 0 0 1 0 0 0 0 ]

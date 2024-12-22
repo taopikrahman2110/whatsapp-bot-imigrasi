@@ -1,5 +1,7 @@
 const { Client, LocalAuth } = require('whatsapp-web.js');
 const qrcode = require('qrcode-terminal');
+require('./keepalive');
+
 
 // Gunakan LocalAuth untuk menyimpan sesi
 const client = new Client({
